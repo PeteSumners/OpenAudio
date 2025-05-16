@@ -74,13 +74,13 @@ This project pipeline covers audio downloading, transcription (two modes), and s
 * `sentence_transcribe.py` — 🧵 **Sentence-level Transcription**
 
   * Transcribes audio at the sentence level.
-  * Outputs subtitles to `subs/` directory.
+  * Outputs subtitles to `output/` directory.
   * Uses the `whisper_model/` directory for models.
 
 * `word_transcribe.py` — ⏱️ **Word-level Timestamp Transcription**
 
   * Provides detailed word-level timestamps.
-  * Also outputs subtitles to `subs/`.
+  * Also outputs subtitles to `output/`.
   * Uses models from `whisper_model/`.
 
 ---
